@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -265,5 +267,5 @@
 
 
     </RelativeLayout>
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
