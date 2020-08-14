@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layoutDirection="ltr"
     android:orientation="vertical">
 
     <LinearLayout
@@ -122,10 +123,44 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:background="#1e1e46 ">
+
+                <ImageView
+                    android:id="@+id/img_profile1"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="3" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="6"
+                    android:text=" Nafasam "
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="2"
+                    android:text=" 23:29 "
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
 
                 android:background="#1e1e46 ">
 
                 <ImageView
+                    android:id="@+id/img_profile2"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight="3" />
@@ -158,6 +193,7 @@
                 android:background="#1e1e46 ">
 
                 <ImageView
+                    android:id="@+id/img_profile3"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight="3" />
@@ -190,6 +226,7 @@
                 android:background="#1e1e46 ">
 
                 <ImageView
+                    android:id="@+id/img_Profile4"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight="3" />
@@ -222,6 +259,7 @@
                 android:background="#1e1e46 ">
 
                 <ImageView
+                    android:id="@+id/img_Profile5"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight="3" />
@@ -254,6 +292,7 @@
                 android:background="#1e1e46 ">
 
                 <ImageView
+                    android:id="@+id/img_Profile6"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight="3" />
@@ -286,37 +325,7 @@
                 android:background="#1e1e46 ">
 
                 <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="90dp"
-                    android:layout_weight="3" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginTop="7dp"
-                    android:layout_weight="6"
-                    android:text=" Nafasam "
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="45dp"
-                    android:layout_marginTop="7dp"
-                    android:layout_weight="2"
-                    android:text=" 23:29 "
-                    android:textColor="@color/colorAccent"
-                    android:textSize="18sp" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-
-                android:background="#1e1e46 ">
-
-                <ImageView
+                    android:id="@+id/img_Profile7"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight="3" />
@@ -349,6 +358,7 @@
                 android:background="#1e1e46 ">
 
                 <ImageView
+                    android:id="@+id/img_Profile8"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight="3" />
@@ -381,6 +391,7 @@
                 android:background="#1e1e46 ">
 
                 <ImageView
+                    android:id="@+id/img_Profile9"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight="3" />
