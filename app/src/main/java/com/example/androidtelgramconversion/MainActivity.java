@@ -27,13 +27,20 @@ public class MainActivity extends AppCompatActivity {
         img9 = findViewById(R.id.img_Profile9);
 
 
-        String imgUrl = "https://media.istockphoto.com/photos/neon-heart-on-brick-wall-picture-id848235926?k=6&m=848235926&s=612x612&w=0&h=resOh2Qt0_wYIOoLGcbnGtu_rXw5Dkp_IsqrerWzWCQ=";
+        String imgUrl1 = "https://media.istockphoto.com/photos/neon-heart-on-brick-wall-picture-id848235926?k=6&m=848235926&s=612x612&w=0&h=resOh2Qt0_wYIOoLGcbnGtu_rXw5Dkp_IsqrerWzWCQ=";
 
+        int imgResource = R.mipmap.sorino;
 
-        Glide.with(MainActivity.this).load(imgUrl).into(img1);
-        Glide.with(MainActivity.this).load(imgUrl).into(img2);
-        Glide.with(MainActivity.this).load(imgUrl).into(img3);
-        Glide.with(MainActivity.this).load(imgUrl).into(img4);
+        Glide.with(MainActivity.this).load(imgUrl1).into(img1);
+        Glide.with(MainActivity.this).load(imgResource).into(img2);
+        Glide.with(MainActivity.this).load(imgUrl1).into(img3);
+        Glide.with(MainActivity.this).load(imgResource).into(img4);
+        Glide.with(MainActivity.this).load(imgUrl1).into(img5);
+        Glide.with(MainActivity.this).load(imgResource).into(img6);
+        Glide.with(MainActivity.this).load(imgUrl1).into(img7);
+        Glide.with(MainActivity.this).load(imgResource).into(img8);
+        Glide.with(MainActivity.this).load(imgUrl1).into(img9);
+
 
     }
 }
