@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView img1, img2, img3, img4, img5, img6, img7, img8, img9;
+    ImageView img1, img2, img3, img4, img5, img6, img7, img8, img9, img90, img91, img92, img93;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         img7 = findViewById(R.id.img_Profile7);
         img8 = findViewById(R.id.img_Profile8);
         img9 = findViewById(R.id.img_Profile9);
+        img90 = findViewById(R.id.img_Profile90);
+        img91 = findViewById(R.id.img_Profile91);
+        img92 = findViewById(R.id.img_Profile92);
 
 
         String imgUrl1 = "https://media.istockphoto.com/photos/neon-heart-on-brick-wall-picture-id848235926?k=6&m=848235926&s=612x612&w=0&h=resOh2Qt0_wYIOoLGcbnGtu_rXw5Dkp_IsqrerWzWCQ=";
@@ -40,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(MainActivity.this).load(imgUrl1).into(img7);
         Glide.with(MainActivity.this).load(imgResource).into(img8);
         Glide.with(MainActivity.this).load(imgUrl1).into(img9);
+        Glide.with(MainActivity.this).load(imgResource).into(img90);
+        Glide.with(MainActivity.this).load(imgUrl1).into(img91);
+        Glide.with(MainActivity.this).load(imgResource).into(img92);
 
 
     }
