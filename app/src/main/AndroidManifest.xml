@@ -13,7 +13,6 @@
         <activity android:name="Fragment.MainActivity2" />
         <activity android:name="DynamicFragment.MainActivity3"/>
             <activity android:name="ShowWeatherWithRetrofitAndFrg.MainActivityWeather">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
